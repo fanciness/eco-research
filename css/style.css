@@ -89,9 +89,8 @@ footer { padding: 12px; margin-left: 220px; font: 400 .8em/.8em 'Roboto', Helvet
     .nav-h a { font-style: italic; }
     .nav-h span { display: none; }
     .nav-h:hover { background-color: transparent; }
-    article { box-shadow: none; margin-right: 0; top: 0; height: 100%; position: absolute; min-width: calc(100% - 220px); min-width: -webkit-calc(100% - 220px); min-width: -moz-calc(100% - 220px); }
+    article { box-shadow: none; margin-right: 0; top: 0; height: 100%; position: absolute; min-width: calc(100% - 180px); min-width: -webkit-calc(100% - 180px); min-width: -moz-calc(100% - 180px); }
     article, article header, article section { border-radius: 0; }
-    article section { min-height: calc(100% - 140px); min-height: -webkit-calc(100% - 140px); min-height: -moz-calc(100% - 140px); }
     footer { position: absolute; text-shadow: none; top: 100px; right: 10px; }
 }
 /* mini-tablet & hi-res phone */
@@ -104,6 +103,7 @@ footer { padding: 12px; margin-left: 220px; font: 400 .8em/.8em 'Roboto', Helvet
     article { margin-left: 0; }
     article > header { font-size: .9em; height: 120px; padding: 5px; }
     article > header h1 { margin: 15px 20px 15px 20px; font-size: 2.2em;line-height: 1.2em; }
+    article section { min-height: 0; }
     .nav { padding-bottom: 20px; top: 0 }
     .nav ul { margin-left: 0 }
     .nav, .nav ul { width: 100%; }
